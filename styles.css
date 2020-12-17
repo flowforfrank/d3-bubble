@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;  
+}
+
+text {
+    text-anchor: middle;
+    font: 10px sans-serif;
+    pointer-events: none;
+    opacity: 0;
+}
+
+circle {
+    cursor: pointer;
+}
+
+img {
+    width: 200px;
+}
+
+a {
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+}
+
+span {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 2px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.html { background: #F16529; }
+.css  { background: #1C88C7; }
+.js   { background: #FCC700; }
+
+.tooltip {
+    position: absolute;
+    visibility: hidden;
+    background-color: #111;
+    display: flex;
+    font-family: sans-serif;
+    max-width: 500px;
+}
+
+.tooltip div {
+    padding: 10px;
+}
